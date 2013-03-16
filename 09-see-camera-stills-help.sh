@@ -1,0 +1,2 @@
+/opt/vc/bin/raspicam 
+
