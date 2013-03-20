@@ -1,2 +1,2 @@
-/opt/vc/bin/raspivid --help
+/opt/vc/bin/raspivid
 
