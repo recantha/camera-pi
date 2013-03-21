@@ -1,6 +1,4 @@
-CURRENT="/home/pi/camera-pi/www/images/output.jpg"
-ARCHIVE="/home/pi/camera-pi/www/images/archive/snapshot-$(date +%Y%m%d-%H%M).jpg"
-
+#!/bin/sh
 df -H | grep rootfs |grep -vE '^Filesystem|tmpfs|cdrom' | awk '{ print $5 " " $1 }' | while read output;
 do
   echo $output
@@ -8,8 +6,6 @@ do
   partition=$(echo $output | awk '{ print $2 }' )
   if [ $usep -le 95 ]; then
 	echo "Okay to take a new snapshot"
-	cp $CURRENT $ARCHIVE
-	/opt/vc/bin/raspicam --width 800 --height 600 --timeout 1000 --output $CURRENT
   fi
 done
 
