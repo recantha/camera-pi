@@ -1,0 +1,9 @@
+test_anwcs.o: test_anwcs.c cutest.h anwcs.h sip.h an-bool.h keywords.h \
+ ../qfits-an/include/qfits_header.h bl.h bl-nl.h bl-nl.ph bl.inc bl.ph \
+ bl-nl.inc sip_qfits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h errors.h ioutils.h

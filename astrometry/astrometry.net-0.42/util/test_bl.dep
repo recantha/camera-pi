@@ -1,0 +1,2 @@
+test_bl.o: test_bl.c cutest.h bl.h keywords.h bl-nl.h bl-nl.ph bl.inc \
+ bl.ph bl-nl.inc

@@ -1,0 +1,1 @@
+datalog.o: datalog.c datalog.h an-bool.h keywords.h

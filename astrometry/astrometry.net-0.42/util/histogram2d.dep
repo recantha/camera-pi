@@ -1,0 +1,2 @@
+histogram2d.o: histogram2d.c histogram2d.h errors.h an-bool.h bl.h \
+ keywords.h bl-nl.h bl-nl.ph bl.inc bl.ph bl-nl.inc

@@ -9,7 +9,7 @@ do
   if [ $usep -le 95 ]; then
 	echo "Okay to take a new snapshot"
 	cp $CURRENT $ARCHIVE
-	/opt/vc/bin/raspicam --width 800 --height 600 --timeout 1000 --output $CURRENT
+	/opt/vc/bin/raspicam --timeout 1000 --output $CURRENT
   fi
 done
 

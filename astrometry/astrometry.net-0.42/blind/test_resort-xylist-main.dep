@@ -1,0 +1,1 @@
+test_resort-xylist-main.o: test_resort-xylist-main.c ../util/cutest.h

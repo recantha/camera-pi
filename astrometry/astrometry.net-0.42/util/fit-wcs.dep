@@ -1,0 +1,46 @@
+fit-wcs.o: fit-wcs.c fit-wcs.h sip.h an-bool.h keywords.h starkd.h \
+ ../libkd/kdtree.h an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h bl.h keywords.h bl-nl.h bl-nl.ph \
+ bl.inc bl.ph bl-nl.inc an-bool.h fitstable.h \
+ ../qfits-an/include/qfits_table.h bl.h ioutils.h starutil.h starutil.inc \
+ mathutil.h mathutil.inc ../gsl-an/gsl/gsl_matrix.h \
+ ../gsl-an/gsl/gsl_matrix_complex_long_double.h ../gsl-an/gsl/gsl_types.h \
+ ../gsl-an/gsl/gsl_errno.h ../gsl-an/gsl/gsl_complex.h \
+ ../gsl-an/gsl/gsl_check_range.h \
+ ../gsl-an/gsl/gsl_vector_complex_long_double.h \
+ ../gsl-an/gsl/gsl_vector_long_double.h ../gsl-an/gsl/gsl_inline.h \
+ ../gsl-an/gsl/gsl_block_long_double.h ../gsl-an/gsl/gsl_vector_complex.h \
+ ../gsl-an/gsl/gsl_block_complex_long_double.h \
+ ../gsl-an/gsl/gsl_matrix_complex_double.h \
+ ../gsl-an/gsl/gsl_vector_complex_double.h \
+ ../gsl-an/gsl/gsl_vector_double.h ../gsl-an/gsl/gsl_block_double.h \
+ ../gsl-an/gsl/gsl_block_complex_double.h \
+ ../gsl-an/gsl/gsl_matrix_complex_float.h \
+ ../gsl-an/gsl/gsl_vector_complex_float.h \
+ ../gsl-an/gsl/gsl_vector_float.h ../gsl-an/gsl/gsl_block_float.h \
+ ../gsl-an/gsl/gsl_block_complex_float.h \
+ ../gsl-an/gsl/gsl_matrix_long_double.h ../gsl-an/gsl/gsl_matrix_double.h \
+ ../gsl-an/gsl/gsl_matrix_float.h ../gsl-an/gsl/gsl_matrix_ulong.h \
+ ../gsl-an/gsl/gsl_vector_ulong.h ../gsl-an/gsl/gsl_block_ulong.h \
+ ../gsl-an/gsl/gsl_matrix_long.h ../gsl-an/gsl/gsl_vector_long.h \
+ ../gsl-an/gsl/gsl_block_long.h ../gsl-an/gsl/gsl_matrix_uint.h \
+ ../gsl-an/gsl/gsl_vector_uint.h ../gsl-an/gsl/gsl_block_uint.h \
+ ../gsl-an/gsl/gsl_matrix_int.h ../gsl-an/gsl/gsl_vector_int.h \
+ ../gsl-an/gsl/gsl_block_int.h ../gsl-an/gsl/gsl_matrix_ushort.h \
+ ../gsl-an/gsl/gsl_vector_ushort.h ../gsl-an/gsl/gsl_block_ushort.h \
+ ../gsl-an/gsl/gsl_matrix_short.h ../gsl-an/gsl/gsl_vector_short.h \
+ ../gsl-an/gsl/gsl_block_short.h ../gsl-an/gsl/gsl_matrix_uchar.h \
+ ../gsl-an/gsl/gsl_vector_uchar.h ../gsl-an/gsl/gsl_block_uchar.h \
+ ../gsl-an/gsl/gsl_matrix_char.h ../gsl-an/gsl/gsl_vector_char.h \
+ ../gsl-an/gsl/gsl_block_char.h ../gsl-an/gsl/gsl_linalg.h \
+ ../gsl-an/gsl/gsl_mode.h ../gsl-an/gsl/gsl_permutation.h \
+ ../gsl-an/gsl/gsl_vector.h ../gsl-an/gsl/gsl_blas.h \
+ ../gsl-an/gsl/gsl_blas_types.h ../gsl-an/gsl/gsl_cblas.h sip_qfits.h \
+ log.h

@@ -1,0 +1,1 @@
+test_blindutils-main.o: test_blindutils-main.c ../util/cutest.h

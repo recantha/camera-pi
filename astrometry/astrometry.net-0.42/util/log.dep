@@ -1,0 +1,2 @@
+log.o: log.c log.h an-bool.h an-thread.h an-thread-pthreads.h tic.h \
+ thread-specific.inc

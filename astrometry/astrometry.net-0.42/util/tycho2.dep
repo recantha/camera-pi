@@ -1,0 +1,1 @@
+tycho2.o: tycho2.c tycho2.h starutil.h an-bool.h keywords.h starutil.inc

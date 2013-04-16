@@ -47,7 +47,7 @@ if ($files = opendir('.'.$dir)) {
 						$('#timelapse_target img').remove();
 						$('#timelapse_target').append($img);
 	
-						hold(5, function() {
+						hold(0.1, function() {
 							file_num++;
 							if (file_num != files.length-1) {
 								displayFile(file_num);

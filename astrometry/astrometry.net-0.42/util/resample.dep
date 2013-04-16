@@ -1,0 +1,3 @@
+resample.o: resample.c resample.h mathutil.h keywords.h mathutil.inc \
+ errors.h an-bool.h bl.h bl-nl.h bl-nl.ph bl.inc bl.ph bl-nl.inc log.h \
+ resample.inc

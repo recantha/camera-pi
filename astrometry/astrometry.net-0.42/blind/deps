@@ -1,0 +1,2237 @@
+usnobtofits.o: usnobtofits.c usnob.h ../util/an-bool.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/healpix.h usnob-fits.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/fitsioutils.h \
+ ../util/boilerplate.h
+build-an-catalog.o: build-an-catalog.c ../util/an-catalog.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/ioutils.h ../util/an-bool.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ usnob-fits.h usnob.h ../util/an-bool.h ../util/starutil.h \
+ ../util/starutil.inc ../util/fitstable.h ../util/tycho2-fits.h \
+ ../util/tycho2.h ../util/starutil.h ../util/fitsioutils.h \
+ ../util/healpix.h ../util/mathutil.h ../util/mathutil.inc \
+ ../util/boilerplate.h 2mass-fits.h 2mass.h ../util/ioutils.h \
+ ../util/os-features.h ../util/os-features-config.h ../util/errors.h
+hpowned.o: hpowned.c ../util/healpix.h ../util/keywords.h \
+ ../util/starutil.h ../util/an-bool.h ../util/starutil.inc \
+ ../util/mathutil.h ../util/mathutil.inc ../util/boilerplate.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h
+cut-an.o: cut-an.c ../util/an-catalog.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/ioutils.h ../util/an-bool.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h usnob.h ../util/an-bool.h \
+ ../util/starutil.h ../util/starutil.inc catalog.h ../util/fitsbin.h \
+ ../util/bl.h ../util/healpix.h ../util/mathutil.h ../util/mathutil.inc \
+ ../util/fitsioutils.h ../util/ioutils.h ../util/boilerplate.h \
+ ../util/errors.h ../util/log.h ../util/rdlist.h ../util/xylist.h \
+ ../util/starxy.h ../util/starutil.h
+startree.o: startree.c ../libkd/kdtree.h ../util/an-bool.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/an-bool.h \
+ ../util/starutil.h ../util/starutil.inc catalog.h ../util/bl.h \
+ ../util/fitsioutils.h ../util/starkd.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/boilerplate.h
+hpquads.o: hpquads.c ../util/healpix.h ../util/keywords.h \
+ ../util/starutil.h ../util/an-bool.h ../util/starutil.inc codefile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/quadfile.h ../util/fitsbin.h ../util/starkd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/mathutil.h ../util/mathutil.inc ../util/tic.h \
+ ../util/fitsioutils.h ../util/permutedsort.h ../util/bt.h \
+ ../util/boilerplate.h ../util/log.h ../util/errors.h quad-utils.h \
+ quad-builder.h
+codetree.o: codetree.c codetree.h ../util/codekd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h codefile.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc \
+ ../util/fitsbin.h ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/quadfile.h \
+ ../util/fitsbin.h ../util/starkd.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/fitstable.h ../util/fitsioutils.h \
+ ../util/boilerplate.h ../util/errors.h ../util/log.h
+unpermute-quads.o: unpermute-quads.c ../libkd/kdtree.h ../util/an-bool.h \
+ ../util/starutil.h ../util/an-bool.h ../util/keywords.h \
+ ../util/starutil.inc ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/fitsioutils.h ../util/codekd.h \
+ ../util/log.h ../util/errors.h ../util/boilerplate.h
+unpermute-stars.o: unpermute-stars.c ../libkd/kdtree.h ../util/an-bool.h \
+ ../util/starutil.h ../util/an-bool.h ../util/keywords.h \
+ ../util/starutil.inc ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/fitsioutils.h ../util/starkd.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/boilerplate.h ../util/log.h ../util/errors.h
+blind.o: blind.c blind.h ../util/an-bool.h solver.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc \
+ ../util/starxy.h ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../libkd/kdtree.h \
+ ../util/bl.h matchobj.h ../util/sip.h ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/starkd.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/codekd.h ../util/quadfile.h ../util/starkd.h ../util/codekd.h \
+ verify.h matchfile.h ../util/fitstable.h ../util/rdlist.h \
+ ../util/xylist.h ../util/starxy.h ../util/starutil.h tweak.h tweak2.h \
+ ../util/sip_qfits.h ../util/sip.h ../util/mathutil.h \
+ ../util/mathutil.inc solvedclient.h solvedfile.h ../util/boilerplate.h \
+ ../util/fitsioutils.h ../util/log.h ../util/tic.h ../util/errors.h \
+ ../util/scamp-catalog.h ../util/permutedsort.h
+solvedserver.o: solvedserver.c ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc solvedfile.h ../util/an-bool.h ../util/ioutils.h \
+ ../util/an-bool.h ../util/bl.h ../util/boilerplate.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h
+printsolved.o: printsolved.c ../util/starutil.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.inc ../util/mathutil.h \
+ ../util/mathutil.inc ../util/boilerplate.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ solvedfile.h ../util/an-bool.h
+xylist2fits.o: xylist2fits.c ../util/xylist.h ../util/starxy.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/an-bool.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_header.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/boilerplate.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsioutils.h
+mergesolved.o: mergesolved.c ../util/boilerplate.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ solvedfile.h ../util/bl.h ../util/keywords.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/an-bool.h
+rdlsinfo.o: rdlsinfo.c ../util/starutil.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.inc ../util/mathutil.h \
+ ../util/mathutil.inc ../util/boilerplate.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/rdlist.h ../util/xylist.h \
+ ../util/starxy.h ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/starutil.h
+xylsinfo.o: xylsinfo.c ../util/starutil.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.inc ../util/mathutil.h \
+ ../util/mathutil.inc ../util/boilerplate.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/xylist.h ../util/starxy.h \
+ ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h
+wcsinfo.o: wcsinfo.c ../util/sip.h ../util/an-bool.h ../util/keywords.h \
+ ../util/sip-utils.h ../util/sip.h ../util/sip_qfits.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/starutil.h ../util/starutil.inc ../util/mathutil.h \
+ ../util/mathutil.inc ../util/boilerplate.h ../util/errors.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc
+subwcs.o: subwcs.c ../util/log.h ../util/an-bool.h ../util/errors.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/sip.h \
+ ../util/sip-utils.h ../util/sip.h ../util/sip_qfits.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/starutil.h ../util/starutil.inc ../util/mathutil.h \
+ ../util/mathutil.inc ../util/boilerplate.h
+wcs-grab.o: wcs-grab.c ../util/log.h ../util/an-bool.h ../util/errors.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/sip.h \
+ ../util/sip_qfits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/sip.h ../util/fitsioutils.h \
+ ../util/boilerplate.h
+fits-guess-scale.o: fits-guess-scale.c fits-guess-scale.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/sip.h ../util/an-bool.h \
+ ../util/sip_qfits.h ../util/sip.h ../util/starutil.h \
+ ../util/starutil.inc ../util/errors.h ../util/bl.h ../util/log.h
+agreeable.o: agreeable.c ../util/starutil.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.inc ../util/mathutil.h \
+ ../util/mathutil.inc ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc matchobj.h ../util/sip.h \
+ ../util/index.h ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/starkd.h ../libkd/kdtree.h ../util/an-bool.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/codekd.h matchfile.h ../util/fitstable.h solvedclient.h \
+ solvedfile.h ../util/boilerplate.h
+new-wcs.o: new-wcs.c ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../qfits-an/include/qfits_error.h \
+ ../util/an-bool.h ../util/fitsioutils.h ../util/keywords.h \
+ ../util/an-bool.h ../util/ioutils.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ new-wcs.h ../util/errors.h ../util/log.h
+get-wcs.o: get-wcs.c ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/sip.h ../util/an-bool.h \
+ ../util/keywords.h ../util/sip_qfits.h ../util/sip.h \
+ ../util/fitsioutils.h ../util/starutil.h ../util/starutil.inc \
+ ../util/errors.h ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/log.h \
+ ../util/ioutils.h
+augment-xylist.o: augment-xylist.c ../util/ioutils.h ../util/an-bool.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/bl.h \
+ ../util/an-bool.h solver.h ../util/starutil.h ../util/starutil.inc \
+ ../util/starxy.h ../libkd/kdtree.h matchobj.h ../util/sip.h \
+ ../util/index.h ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/starkd.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitsbin.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/codekd.h ../util/quadfile.h ../util/starkd.h \
+ ../util/codekd.h verify.h ../util/fitsioutils.h blindutils.h \
+ ../util/sip_qfits.h ../util/sip.h tabsort.h cut-table.h ../util/errors.h \
+ fits-guess-scale.h image2xy-files.h simplexy.h resort-xylist.h \
+ ../util/an-opts.h augment-xylist.h ../util/log.h
+solve-field.o: solve-field.c ../util/errors.h ../util/an-bool.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/boilerplate.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/an-bool.h ../util/bl.h ../util/ioutils.h ../util/xylist.h \
+ ../util/starxy.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h matchfile.h matchobj.h \
+ ../util/starutil.h ../util/starutil.inc ../util/sip.h ../util/index.h \
+ ../util/quadfile.h ../util/fitsbin.h ../util/starkd.h ../libkd/kdtree.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../util/codekd.h ../util/fitstable.h ../util/fitsioutils.h \
+ augment-xylist.h ../util/starxy.h ../util/an-opts.h ../util/log.h \
+ ../util/sip_qfits.h ../util/sip.h ../util/sip-utils.h wcs-rd2xy.h \
+ new-wcs.h scamp.h
+plotcat.o: plotcat.c ../util/keywords.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc catalog.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/bl.h ../util/an-bool.h ../util/an-catalog.h ../util/ioutils.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h usnob-fits.h \
+ usnob.h ../util/fitstable.h nomad-fits.h nomad.h ../util/tycho2-fits.h \
+ ../util/tycho2.h ../util/starutil.h 2mass-fits.h 2mass.h \
+ ../util/ioutils.h ../util/mathutil.h ../util/mathutil.inc \
+ ../util/rdlist.h ../util/xylist.h ../util/starxy.h ../util/boilerplate.h \
+ ../util/starkd.h ../libkd/kdtree.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/errors.h ../util/fitsioutils.h ../util/log.h
+wcs-xy2rd.o: wcs-xy2rd.c ../util/anwcs.h ../util/sip.h ../util/an-bool.h \
+ ../util/keywords.h ../qfits-an/include/qfits_header.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/starutil.h \
+ ../util/starutil.inc ../util/bl.h ../util/xylist.h ../util/starxy.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/rdlist.h ../util/xylist.h ../util/starutil.h \
+ ../util/boilerplate.h ../util/errors.h ../util/log.h
+wcs-rd2xy.o: wcs-rd2xy.c ../util/anwcs.h ../util/sip.h ../util/an-bool.h \
+ ../util/keywords.h ../qfits-an/include/qfits_header.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/starutil.h \
+ ../util/starutil.inc ../util/bl.h ../util/xylist.h ../util/starxy.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/rdlist.h ../util/xylist.h ../util/starutil.h ../util/errors.h
+certifiable.o: certifiable.c ../util/starutil.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.inc ../util/mathutil.h \
+ ../util/mathutil.inc ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc matchobj.h ../util/sip.h \
+ ../util/index.h ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/starkd.h ../libkd/kdtree.h ../util/an-bool.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/codekd.h matchfile.h ../util/fitstable.h ../util/rdlist.h \
+ ../util/xylist.h ../util/starxy.h ../util/starutil.h ../util/histogram.h \
+ solvedfile.h
+2masstofits.o: 2masstofits.c 2mass.h ../util/an-bool.h 2mass-fits.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/an-bool.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/ioutils.h ../util/healpix.h ../util/starutil.h \
+ ../util/starutil.inc ../util/boilerplate.h ../util/fitsioutils.h
+nomadtofits.o: nomadtofits.c nomad.h ../util/starutil.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.inc nomad-fits.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/healpix.h \
+ ../util/fitsioutils.h ../util/boilerplate.h
+merge-index.o: merge-index.c ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/codekd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../util/starkd.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/fitstable.h \
+ ../util/fitsioutils.h ../util/errors.h ../util/ioutils.h ../util/log.h
+index-to-table.o: index-to-table.c ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/starkd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitsbin.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/codekd.h ../util/fitstable.h ../util/errors.h \
+ ../util/starutil.h ../util/starutil.inc
+setsolved.o: setsolved.c solvedfile.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h
+startree2.o: startree2.c startree2.h ../util/starkd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/fitstable.h \
+ ../util/errors.h ../util/log.h ../util/starutil.h ../util/starutil.inc \
+ ../util/fitsioutils.h ../util/boilerplate.h
+uniformize-catalog.o: uniformize-catalog.c uniformize-catalog.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_header.h ../util/an-bool.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_keywords.h ../util/an-bool.h ../util/intmap.h \
+ ../util/healpix.h ../util/healpix-utils.h ../util/permutedsort.h \
+ ../util/starutil.h ../util/starutil.inc ../util/mathutil.h \
+ ../util/mathutil.inc ../util/errors.h ../util/log.h \
+ ../util/boilerplate.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsioutils.h
+build-index.o: build-index.c build-index.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_header.h \
+ ../util/an-bool.h ../util/bl.h ../util/keywords.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_keywords.h \
+ ../util/index.h ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h ../util/codekd.h \
+ ../util/boilerplate.h ../util/errors.h ../util/log.h quad-utils.h \
+ ../util/starkd.h codefile.h ../util/starutil.h ../util/starutil.inc \
+ ../util/quadfile.h uniformize-catalog.h startree2.h codetree.h \
+ ../util/codekd.h unpermute-quads.h unpermute-stars.h ../util/bl.h \
+ ../util/ioutils.h ../util/rdlist.h ../util/xylist.h ../util/starxy.h \
+ ../util/starutil.h hpquads.h ../util/sip.h ../util/sip_qfits.h \
+ ../util/sip.h merge-index.h ../util/fitsioutils.h ../util/permutedsort.h
+query-starkd.o: query-starkd.c ../util/starkd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/fitsioutils.h ../util/log.h ../util/errors.h \
+ ../util/boilerplate.h ../util/starutil.h ../util/starutil.inc \
+ ../util/rdlist.h ../util/xylist.h ../util/starxy.h ../util/starutil.h
+local-index.o: local-index.c ../util/boilerplate.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/errors.h ../util/an-bool.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/log.h build-index.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/index.h ../util/quadfile.h ../util/fitsbin.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h ../util/codekd.h \
+ wcs-xy2rd.h ../util/bl.h ../util/rdlist.h ../util/xylist.h \
+ ../util/starxy.h ../util/starutil.h ../util/starutil.inc ../util/sip.h \
+ ../util/sip_qfits.h ../util/sip.h ../util/healpix.h
+index-info.o: index-info.c ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/starkd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitsbin.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/codekd.h ../util/starutil.h \
+ ../util/starutil.inc ../util/log.h ../util/errors.h ../util/ioutils.h \
+ ../util/boilerplate.h ../util/tic.h
+quadidx.o: quadidx.c ../util/starutil.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.inc ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/qidxfile.h ../util/bl.h ../util/fitsioutils.h \
+ ../util/boilerplate.h ../util/log.h ../util/errors.h
+codeprojections.o: codeprojections.c ../util/starutil.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.inc ../util/codekd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/keywords.h ../util/boilerplate.h
+quadscales.o: quadscales.c ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/an-bool.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../util/starutil.h \
+ ../util/starutil.inc ../util/mathutil.h ../util/mathutil.inc \
+ ../util/bl.h ../util/histogram.h ../util/starkd.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/boilerplate.h
+quadsperstar.o: quadsperstar.c ../util/ioutils.h ../util/an-bool.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/qidxfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h
+quadcenters.o: quadcenters.c ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/starkd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitsbin.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/codekd.h ../util/quadfile.h ../util/starutil.h \
+ ../util/starutil.inc ../util/mathutil.h ../util/mathutil.inc \
+ ../util/fitsioutils.h ../util/bl.h ../util/starkd.h \
+ ../util/boilerplate.h ../util/rdlist.h ../util/xylist.h ../util/starxy.h \
+ ../util/starutil.h
+startree2rdls.o: startree2rdls.c ../libkd/kdtree.h ../util/an-bool.h \
+ ../util/starutil.h ../util/an-bool.h ../util/keywords.h \
+ ../util/starutil.inc ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/starkd.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/boilerplate.h ../util/rdlist.h \
+ ../util/xylist.h ../util/starxy.h ../util/starutil.h ../util/log.h \
+ ../util/errors.h
+fitsgetext.o: fitsgetext.c ../util/an-bool.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/ioutils.h \
+ ../util/an-bool.h ../util/bl.h ../util/log.h ../util/fitsioutils.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/errors.h
+subtable.o: subtable.c ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/fitsioutils.h ../util/an-bool.h \
+ ../util/ioutils.h ../util/bl.h
+tabsort.o: tabsort.c ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/ioutils.h ../util/an-bool.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/fitsioutils.h \
+ ../util/permutedsort.h ../util/errors.h
+column-merge.o: column-merge.c ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsioutils.h \
+ ../util/keywords.h ../util/an-bool.h ../util/boilerplate.h
+resort-xylist.o: resort-xylist.c ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/ioutils.h ../util/an-bool.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/fitsioutils.h \
+ ../util/permutedsort.h ../util/an-bool.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/errors.h ../util/log.h
+fits-dedup.o: fits-dedup.c ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/ioutils.h ../util/an-bool.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/bl.h \
+ ../util/log.h ../util/errors.h
+tablist.o: tablist.c fitsio.h
+modhead.o: modhead.c fitsio.h
+fitscopy.o: fitscopy.c fitsio.h
+tabmerge.o: tabmerge.c fitsio.h
+fitstomatlab.o: fitstomatlab.c fitsio.h
+liststruc.o: liststruc.c fitsio.h
+listhead.o: listhead.c fitsio.h
+imcopy.o: imcopy.c fitsio.h
+imarith.o: imarith.c fitsio.h
+imstat.o: imstat.c fitsio.h
+usnob.o: usnob.c usnob.h ../util/an-bool.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc \
+ ../util/an-endian.h
+usnob-fits.o: usnob-fits.c usnob-fits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h usnob.h ../util/an-bool.h \
+ ../util/starutil.h ../util/an-bool.h ../util/keywords.h \
+ ../util/starutil.inc ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/fitsioutils.h
+catalog.o: catalog.c catalog.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/an-bool.h \
+ ../util/bl.h ../util/an-bool.h ../util/fitsioutils.h ../util/ioutils.h \
+ ../util/starutil.h ../util/starutil.inc ../util/mathutil.h \
+ ../util/mathutil.inc ../util/errors.h
+codefile.o: codefile.c codefile.h ../util/starutil.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.inc ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/quadfile.h ../util/fitsbin.h \
+ ../util/starkd.h ../libkd/kdtree.h ../util/an-bool.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/ioutils.h \
+ ../util/fitsioutils.h ../util/errors.h quad-utils.h
+verify.o: verify.c verify.h ../libkd/kdtree.h ../util/an-bool.h \
+ matchobj.h ../util/starutil.h ../util/an-bool.h ../util/keywords.h \
+ ../util/starutil.inc ../util/sip.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/index.h ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/starkd.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/codekd.h \
+ ../util/starkd.h ../util/starxy.h ../util/permutedsort.h \
+ ../util/mathutil.h ../util/mathutil.inc ../util/keywords.h ../util/log.h \
+ ../util/sip-utils.h ../util/sip.h ../util/healpix.h ../util/datalog.h
+solver.o: solver.c ../util/ioutils.h ../util/an-bool.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/mathutil.h ../util/mathutil.inc \
+ matchobj.h ../util/starutil.h ../util/starutil.inc ../util/sip.h \
+ ../util/bl.h ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/starkd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitsbin.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/codekd.h solver.h ../util/starxy.h \
+ ../util/quadfile.h ../util/starkd.h ../util/codekd.h verify.h \
+ ../util/tic.h solvedclient.h solvedfile.h ../util/fit-wcs.h \
+ ../util/sip.h ../util/keywords.h ../util/log.h pquad.h quad-utils.h \
+ codefile.h ../util/errors.h tweak2.h
+matchfile.o: matchfile.c matchfile.h matchobj.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc ../util/sip.h \
+ ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/codekd.h \
+ ../util/fitstable.h ../util/fitsioutils.h ../util/ioutils.h \
+ ../util/mathutil.h ../util/mathutil.inc
+matchobj.o: matchobj.c ../util/sip.h ../util/an-bool.h ../util/keywords.h \
+ matchobj.h ../util/starutil.h ../util/starutil.inc ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/codekd.h \
+ ../util/log.h verify.h ../util/starkd.h ../util/starxy.h
+solvedclient.o: solvedclient.c solvedclient.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc
+solvedfile.o: solvedfile.c solvedfile.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/errors.h ../util/an-bool.h \
+ ../util/bl.h
+pnpoly.o: pnpoly.c
+tweak.o: tweak.c ../gsl-an/gsl/gsl_matrix_double.h \
+ ../gsl-an/gsl/gsl_types.h ../gsl-an/gsl/gsl_errno.h \
+ ../gsl-an/gsl/gsl_inline.h ../gsl-an/gsl/gsl_check_range.h \
+ ../gsl-an/gsl/gsl_vector_double.h ../gsl-an/gsl/gsl_block_double.h \
+ ../util/sip-utils.h ../util/sip.h ../util/an-bool.h ../util/keywords.h \
+ tweak.h ../util/an-bool.h ../libkd/kdtree.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/sip.h ../util/starutil.h ../util/starutil.inc ../util/starxy.h \
+ ../util/bl.h ../util/healpix.h ../libkd/dualtree_rangesearch.h \
+ ../libkd/kdtree.h ../libkd/kdtree_fits_io.h ../util/fitsbin.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/mathutil.h ../util/mathutil.inc ../util/log.h \
+ ../util/permutedsort.h ../util/gslutils.h ../util/errors.h
+blind-main.o: blind-main.c ../qfits-an/include/qfits_cache.h \
+ ../util/fitsioutils.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/keywords.h ../util/an-bool.h \
+ ../util/boilerplate.h blind.h ../util/an-bool.h solver.h \
+ ../util/starutil.h ../util/starutil.inc ../util/starxy.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../libkd/kdtree.h ../util/bl.h matchobj.h \
+ ../util/sip.h ../util/index.h ../util/quadfile.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/starkd.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitsbin.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/codekd.h ../util/quadfile.h ../util/starkd.h \
+ ../util/codekd.h verify.h matchfile.h ../util/fitstable.h \
+ ../util/rdlist.h ../util/xylist.h ../util/starxy.h ../util/starutil.h \
+ ../util/log.h ../util/tic.h
+plot-constellations.o: plot-constellations.c ../util/an-bool.h \
+ ../util/sip_qfits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/sip.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.h ../util/starutil.inc ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/xylist.h ../util/starxy.h ../util/bl.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/rdlist.h ../util/xylist.h ../util/starutil.h \
+ ../util/boilerplate.h ../util/mathutil.h ../util/mathutil.inc \
+ ../util/cairoutils.h ../catalogs/ngc2000.h ../catalogs/ngcic-accurate.h \
+ ../catalogs/constellations.h ../catalogs/brightstars.h ../util/hd.h \
+ ../libkd/kdtree.h ../util/fitsioutils.h ../util/sip-utils.h \
+ ../util/errors.h ../util/log.h ../util/svn.h
+quadcenters.o: quadcenters.c ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/starkd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitsbin.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/codekd.h ../util/quadfile.h ../util/starutil.h \
+ ../util/starutil.inc ../util/mathutil.h ../util/mathutil.inc \
+ ../util/fitsioutils.h ../util/bl.h ../util/starkd.h \
+ ../util/boilerplate.h ../util/rdlist.h ../util/xylist.h ../util/starxy.h \
+ ../util/starutil.h
+startree2rdls.o: startree2rdls.c ../libkd/kdtree.h ../util/an-bool.h \
+ ../util/starutil.h ../util/an-bool.h ../util/keywords.h \
+ ../util/starutil.inc ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/starkd.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/boilerplate.h ../util/rdlist.h \
+ ../util/xylist.h ../util/starxy.h ../util/starutil.h ../util/log.h \
+ ../util/errors.h
+nomad.o: nomad.c nomad.h ../util/starutil.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.inc ../util/an-endian.h
+nomad-fits.o: nomad-fits.c nomad-fits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h nomad.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/fitsioutils.h
+blindutils.o: blindutils.c blindutils.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/ioutils.h ../util/an-bool.h ../util/bl.h \
+ ../util/errors.h ../util/log.h
+backend-main.o: backend-main.c ../util/tic.h ../util/ioutils.h \
+ ../util/an-bool.h ../util/bl.h ../util/keywords.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/bl.h ../util/an-bool.h solver.h ../util/starutil.h \
+ ../util/starutil.inc ../util/starxy.h ../libkd/kdtree.h matchobj.h \
+ ../util/sip.h ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/starkd.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/codekd.h ../util/quadfile.h ../util/starkd.h ../util/codekd.h \
+ verify.h ../util/fitsioutils.h blindutils.h blind.h matchfile.h \
+ ../util/fitstable.h ../util/rdlist.h ../util/xylist.h ../util/starxy.h \
+ ../util/starutil.h ../util/log.h ../util/errors.h backend.h \
+ ../util/an-opts.h ../util/gslutils.h ../gsl-an/gsl/gsl_matrix_double.h \
+ ../gsl-an/gsl/gsl_types.h ../gsl-an/gsl/gsl_errno.h \
+ ../gsl-an/gsl/gsl_inline.h ../gsl-an/gsl/gsl_check_range.h \
+ ../gsl-an/gsl/gsl_vector_double.h ../gsl-an/gsl/gsl_block_double.h \
+ ../util/datalog.h
+backend.o: backend.c ../util/ioutils.h ../util/an-bool.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/bl.h ../util/an-bool.h solver.h \
+ ../util/starutil.h ../util/starutil.inc ../util/starxy.h \
+ ../libkd/kdtree.h matchobj.h ../util/sip.h ../util/index.h \
+ ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/starkd.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitsbin.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/codekd.h ../util/quadfile.h ../util/starkd.h \
+ ../util/codekd.h verify.h ../util/fitsioutils.h blindutils.h \
+ ../util/os-features.h ../util/os-features-config.h blind.h matchfile.h \
+ ../util/fitstable.h ../util/rdlist.h ../util/xylist.h ../util/starxy.h \
+ ../util/starutil.h ../util/log.h ../util/errors.h backend.h \
+ ../util/tic.h ../util/healpix.h ../util/sip-utils.h ../util/sip.h \
+ ../util/multiindex.h ../util/index.h
+plotquad.o: plotquad.c ../util/an-bool.h ../util/cairoutils.h \
+ ../util/boilerplate.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/permutedsort.h matchfile.h matchobj.h \
+ ../util/starutil.h ../util/an-bool.h ../util/starutil.inc ../util/sip.h \
+ ../util/index.h ../util/quadfile.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/starkd.h ../libkd/kdtree.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/codekd.h ../util/fitstable.h ../util/log.h ../util/os-features.h \
+ ../util/os-features-config.h
+plotxy.o: plotxy.c plotxy.h plotstuff.h ../util/keywords.h ../util/sip.h \
+ ../util/an-bool.h ../util/keywords.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/anwcs.h ../util/sip.h ../qfits-an/include/qfits_header.h \
+ ../util/bl.h ../util/an-bool.h ../util/xylist.h ../util/starxy.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_header.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_keywords.h ../util/cairoutils.h ../util/log.h \
+ ../util/errors.h ../util/sip_qfits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/tic.h
+add-text.o: add-text.c ../util/an-bool.h ../util/cairoutils.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc
+tweak2.o: tweak2.c ../util/bl.h ../util/keywords.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/fit-wcs.h ../util/sip.h ../util/an-bool.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/sip.h \
+ ../util/sip_qfits.h ../util/sip-utils.h scamp.h ../util/starxy.h \
+ ../util/log.h ../util/errors.h tweak.h ../util/starutil.h \
+ ../util/starutil.inc matchfile.h matchobj.h ../util/index.h \
+ ../util/quadfile.h ../util/fitsbin.h ../util/codekd.h \
+ ../util/fitstable.h ../util/boilerplate.h ../util/xylist.h \
+ ../util/starxy.h ../util/rdlist.h ../util/xylist.h ../util/starutil.h \
+ ../util/mathutil.h ../util/mathutil.inc verify.h ../util/starkd.h \
+ ../util/fitsioutils.h
+2masstofits.o: 2masstofits.c 2mass.h ../util/an-bool.h 2mass-fits.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/an-bool.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/ioutils.h ../util/healpix.h ../util/starutil.h \
+ ../util/starutil.inc ../util/boilerplate.h ../util/fitsioutils.h
+2mass-fits.o: 2mass-fits.c 2mass-fits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h 2mass.h ../util/an-bool.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/an-bool.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/ioutils.h ../util/fitsioutils.h ../util/starutil.h \
+ ../util/starutil.inc
+2mass.o: 2mass.c 2mass.h ../util/an-bool.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc
+dallpeaks.o: dallpeaks.c dimage.h ../util/permutedsort.h \
+ simplexy-common.h ../util/log.h ../util/an-bool.h ../util/mathutil.h \
+ ../util/keywords.h ../util/mathutil.inc dallpeaks.inc
+dcen3x3.o: dcen3x3.c simplexy-common.h
+dfind.o: dfind.c simplexy-common.h dimage.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc dfind2.c ../util/errors.h \
+ ../util/an-bool.h ../util/bl.h ../util/log.h
+dmedsmooth.o: dmedsmooth.c simplexy-common.h
+dobjects.o: dobjects.c dimage.h simplexy-common.h ../util/log.h \
+ ../util/an-bool.h
+dpeaks.o: dpeaks.c ../util/keywords.h dimage.h ../util/permutedsort.h \
+ simplexy-common.h
+dselip.o: dselip.c radix.h
+dsigma.o: dsigma.c dimage.h simplexy-common.h ../util/log.h \
+ ../util/an-bool.h dsigma.inc
+dsmooth.o: dsmooth.c simplexy-common.h dsmooth.inc
+image2xy.o: image2xy.c image2xy.h simplexy.h ../util/an-bool.h \
+ ../util/ioutils.h ../util/an-bool.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/svn.h dimage.h ../util/errors.h ../util/log.h \
+ ../util/mathutil.h ../util/mathutil.inc
+simplexy.o: simplexy.c simplexy.h ../util/an-bool.h ctmf.h dimage.h \
+ simplexy-common.h ../util/log.h ../util/an-bool.h ../util/errors.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/resample.h \
+ ../util/fitsioutils.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h
+radix.o: radix.c ../util/keywords.h radix.h
+ctmf.o: ctmf.c
+plotstuff.o: plotstuff.c ../util/an-bool.h plotstuff.h ../util/keywords.h \
+ ../util/sip.h ../util/an-bool.h ../util/keywords.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/anwcs.h ../util/sip.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h plotfill.h plotxy.h \
+ plotimage.h plotannotations.h plotgrid.h plotoutline.h plotindex.h \
+ ../util/index.h ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/starkd.h ../libkd/kdtree.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/codekd.h \
+ plotradec.h plothealpix.h plotmatch.h matchobj.h ../util/starutil.h \
+ ../util/starutil.inc ../util/sip_qfits.h ../util/sip-utils.h \
+ ../util/cairoutils.h ../util/ioutils.h ../util/log.h ../util/errors.h
+plotfill.o: plotfill.c plotfill.h plotstuff.h ../util/keywords.h \
+ ../util/sip.h ../util/an-bool.h ../util/keywords.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/anwcs.h ../util/sip.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/an-bool.h \
+ ../util/cairoutils.h ../util/ioutils.h ../util/log.h ../util/errors.h
+plotxy.o: plotxy.c plotxy.h plotstuff.h ../util/keywords.h ../util/sip.h \
+ ../util/an-bool.h ../util/keywords.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/anwcs.h ../util/sip.h ../qfits-an/include/qfits_header.h \
+ ../util/bl.h ../util/an-bool.h ../util/xylist.h ../util/starxy.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_header.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_keywords.h ../util/cairoutils.h ../util/log.h \
+ ../util/errors.h ../util/sip_qfits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/tic.h
+plotimage.o: plotimage.c plotimage.h plotstuff.h ../util/keywords.h \
+ ../util/sip.h ../util/an-bool.h ../util/keywords.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/anwcs.h ../util/sip.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/an-bool.h \
+ ../util/cairoutils.h ../util/ioutils.h ../util/sip_qfits.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/log.h ../util/errors.h ../util/permutedsort.h \
+ ../util/wcs-resample.h ../util/anwcs.h ../util/mathutil.h \
+ ../util/mathutil.inc
+plotannotations.o: plotannotations.c plotannotations.h plotstuff.h \
+ ../util/keywords.h ../util/sip.h ../util/an-bool.h ../util/keywords.h \
+ ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/anwcs.h ../util/sip.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/an-bool.h \
+ ../util/hd.h ../libkd/kdtree.h ../catalogs/ngc2000.h \
+ ../catalogs/brightstars.h ../util/cairoutils.h ../util/sip-utils.h \
+ ../util/starutil.h ../util/starutil.inc ../util/ioutils.h ../util/log.h \
+ ../util/errors.h ../util/mathutil.h ../util/mathutil.inc \
+ ../catalogs/constellations.h
+plotgrid.o: plotgrid.c plotgrid.h plotstuff.h ../util/keywords.h \
+ ../util/sip.h ../util/an-bool.h ../util/keywords.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/anwcs.h ../util/sip.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/an-bool.h \
+ ../util/sip-utils.h ../util/cairoutils.h ../util/ioutils.h ../util/log.h \
+ ../util/errors.h
+plotoutline.o: plotoutline.c plotoutline.h plotstuff.h ../util/keywords.h \
+ ../util/sip.h ../util/an-bool.h ../util/keywords.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/anwcs.h ../util/sip.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/an-bool.h \
+ ../util/cairoutils.h ../util/ioutils.h ../util/log.h ../util/errors.h \
+ ../util/sip-utils.h ../util/sip_qfits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/starutil.h \
+ ../util/starutil.inc
+plotindex.o: plotindex.c plotindex.h plotstuff.h ../util/keywords.h \
+ ../util/sip.h ../util/an-bool.h ../util/keywords.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/anwcs.h ../util/sip.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/an-bool.h \
+ ../util/index.h ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/starkd.h ../libkd/kdtree.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/codekd.h \
+ ../util/cairoutils.h ../util/ioutils.h ../util/log.h ../util/errors.h \
+ ../util/starutil.h ../util/starutil.inc ../util/qidxfile.h \
+ ../util/permutedsort.h
+plotradec.o: plotradec.c plotradec.h plotstuff.h ../util/keywords.h \
+ ../util/sip.h ../util/an-bool.h ../util/keywords.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/anwcs.h ../util/sip.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/an-bool.h \
+ ../util/rdlist.h ../util/xylist.h ../util/starxy.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_header.h \
+ ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_keywords.h \
+ ../util/starutil.h ../util/starutil.inc ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/cairoutils.h ../util/log.h \
+ ../util/errors.h ../util/sip_qfits.h
+plothealpix.o: plothealpix.c plothealpix.h plotstuff.h ../util/keywords.h \
+ ../util/sip.h ../util/an-bool.h ../util/keywords.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/anwcs.h ../util/sip.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/an-bool.h \
+ ../util/sip-utils.h ../util/cairoutils.h ../util/ioutils.h ../util/log.h \
+ ../util/errors.h ../util/healpix-utils.h ../util/healpix.h
+plotmatch.o: plotmatch.c plotmatch.h plotstuff.h ../util/keywords.h \
+ ../util/sip.h ../util/an-bool.h ../util/keywords.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/anwcs.h ../util/sip.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/an-bool.h \
+ matchobj.h ../util/starutil.h ../util/starutil.inc ../util/index.h \
+ ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/starkd.h ../libkd/kdtree.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/codekd.h \
+ ../util/cairoutils.h ../util/ioutils.h ../util/log.h ../util/errors.h \
+ ../util/permutedsort.h matchfile.h ../util/fitstable.h
+matchfile.o: matchfile.c matchfile.h matchobj.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc ../util/sip.h \
+ ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/codekd.h \
+ ../util/fitstable.h ../util/fitsioutils.h ../util/ioutils.h \
+ ../util/mathutil.h ../util/mathutil.inc
+matchobj.o: matchobj.c ../util/sip.h ../util/an-bool.h ../util/keywords.h \
+ matchobj.h ../util/starutil.h ../util/starutil.inc ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/codekd.h \
+ ../util/log.h verify.h ../util/starkd.h ../util/starxy.h
+test-solver.o: test-solver.c solver.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc \
+ ../util/starxy.h ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../libkd/kdtree.h \
+ ../util/an-bool.h ../util/bl.h matchobj.h ../util/sip.h ../util/index.h \
+ ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/starkd.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitsbin.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/codekd.h ../util/quadfile.h ../util/starkd.h \
+ ../util/codekd.h verify.h pquad.h ../util/permutedsort.h ../util/log.h
+test-solver-2.o: test-solver-2.c solver.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc \
+ ../util/starxy.h ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../libkd/kdtree.h \
+ ../util/an-bool.h ../util/bl.h matchobj.h ../util/sip.h ../util/index.h \
+ ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/starkd.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitsbin.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/codekd.h ../util/quadfile.h ../util/starkd.h \
+ ../util/codekd.h verify.h pquad.h ../util/permutedsort.h quad-utils.h \
+ codefile.h ../util/log.h
+test_dfind.o: test_dfind.c dimage.h ../util/cutest.h simplexy-common.h
+test_ctmf.o: test_ctmf.c ctmf.h ../util/cutest.h
+test_dsmooth.o: test_dsmooth.c ../util/cutest.h
+test_2mass.o: test_2mass.c ../util/cutest.h 2mass.h ../util/an-bool.h \
+ 2mass-fits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/an-bool.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/ioutils.h ../util/starutil.h ../util/starutil.inc
+test_usnob.o: test_usnob.c ../util/cutest.h usnob.h ../util/an-bool.h \
+ ../util/starutil.h ../util/an-bool.h ../util/keywords.h \
+ ../util/starutil.inc usnob-fits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/an-endian.h
+test_nomad.o: test_nomad.c ../util/cutest.h nomad.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc nomad-fits.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/an-bool.h \
+ ../util/an-endian.h
+test_matchfile.o: test_matchfile.c ../util/cutest.h matchfile.h \
+ matchobj.h ../util/starutil.h ../util/an-bool.h ../util/keywords.h \
+ ../util/starutil.inc ../util/sip.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/index.h ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/starkd.h ../libkd/kdtree.h ../util/an-bool.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/codekd.h ../util/fitstable.h
+test_blindutils.o: test_blindutils.c ../util/cutest.h blindutils.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc
+test_dcen3x3.o: test_dcen3x3.c ../util/cutest.h dimage.h
+test_resort-xylist.o: test_resort-xylist.c ../util/cutest.h \
+ ../util/xylist.h ../util/starxy.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_header.h \
+ ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_keywords.h \
+ ../util/starxy.h resort-xylist.h ../util/an-bool.h
+test_simplexy.o: test_simplexy.c ../util/cutest.h dimage.h simplexy.h \
+ ../util/an-bool.h ../util/log.h ../util/an-bool.h
+test_tweak.o: test_tweak.c ../util/cutest.h tweak.h ../util/an-bool.h \
+ ../libkd/kdtree.h ../util/bl.h ../util/keywords.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/sip.h ../util/an-bool.h ../util/starutil.h ../util/starutil.inc \
+ ../util/starxy.h ../util/bl.h ../util/sip-utils.h ../util/sip.h \
+ ../util/log.h
+test_multiindex2.o: test_multiindex2.c ../util/cutest.h \
+ ../util/multiindex.h ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/starkd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitsbin.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/codekd.h solver.h ../util/starutil.h \
+ ../util/starutil.inc ../util/starxy.h ../util/bl.h matchobj.h \
+ ../util/sip.h ../util/index.h ../util/quadfile.h ../util/starkd.h \
+ ../util/codekd.h verify.h ../util/xylist.h ../util/starxy.h \
+ ../util/log.h ../util/errors.h
+test_dfind-main.o: test_dfind-main.c ../util/cutest.h
+test_ctmf-main.o: test_ctmf-main.c ../util/cutest.h
+test_dsmooth-main.o: test_dsmooth-main.c ../util/cutest.h
+test_2mass-main.o: test_2mass-main.c ../util/cutest.h
+test_usnob-main.o: test_usnob-main.c ../util/cutest.h
+test_nomad-main.o: test_nomad-main.c ../util/cutest.h
+test_matchfile-main.o: test_matchfile-main.c ../util/cutest.h
+test_blindutils-main.o: test_blindutils-main.c ../util/cutest.h
+test_dcen3x3-main.o: test_dcen3x3-main.c ../util/cutest.h
+test_resort-xylist-main.o: test_resort-xylist-main.c ../util/cutest.h
+test_simplexy-main.o: test_simplexy-main.c ../util/cutest.h
+test_tweak-main.o: test_tweak-main.c ../util/cutest.h
+test_multiindex2-main.o: test_multiindex2-main.c ../util/cutest.h
+dfind.o: dfind.c simplexy-common.h dimage.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc dfind2.c ../util/errors.h \
+ ../util/an-bool.h ../util/bl.h ../util/log.h
+ctmf.o: ctmf.c
+dsmooth.o: dsmooth.c simplexy-common.h dsmooth.inc
+solver.o: solver.c ../util/ioutils.h ../util/an-bool.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/mathutil.h ../util/mathutil.inc \
+ matchobj.h ../util/starutil.h ../util/starutil.inc ../util/sip.h \
+ ../util/bl.h ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/starkd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitsbin.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/codekd.h solver.h ../util/starxy.h \
+ ../util/quadfile.h ../util/starkd.h ../util/codekd.h verify.h \
+ ../util/tic.h solvedclient.h solvedfile.h ../util/fit-wcs.h \
+ ../util/sip.h ../util/keywords.h ../util/log.h pquad.h quad-utils.h \
+ codefile.h ../util/errors.h tweak2.h
+verify.o: verify.c verify.h ../libkd/kdtree.h ../util/an-bool.h \
+ matchobj.h ../util/starutil.h ../util/an-bool.h ../util/keywords.h \
+ ../util/starutil.inc ../util/sip.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/index.h ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/starkd.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/codekd.h \
+ ../util/starkd.h ../util/starxy.h ../util/permutedsort.h \
+ ../util/mathutil.h ../util/mathutil.inc ../util/keywords.h ../util/log.h \
+ ../util/sip-utils.h ../util/sip.h ../util/healpix.h ../util/datalog.h
+tweak2.o: tweak2.c ../util/bl.h ../util/keywords.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/fit-wcs.h ../util/sip.h ../util/an-bool.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/sip.h \
+ ../util/sip_qfits.h ../util/sip-utils.h scamp.h ../util/starxy.h \
+ ../util/log.h ../util/errors.h tweak.h ../util/starutil.h \
+ ../util/starutil.inc matchfile.h matchobj.h ../util/index.h \
+ ../util/quadfile.h ../util/fitsbin.h ../util/codekd.h \
+ ../util/fitstable.h ../util/boilerplate.h ../util/xylist.h \
+ ../util/starxy.h ../util/rdlist.h ../util/xylist.h ../util/starutil.h \
+ ../util/mathutil.h ../util/mathutil.inc verify.h ../util/starkd.h \
+ ../util/fitsioutils.h
+tweak.o: tweak.c ../gsl-an/gsl/gsl_matrix_double.h \
+ ../gsl-an/gsl/gsl_types.h ../gsl-an/gsl/gsl_errno.h \
+ ../gsl-an/gsl/gsl_inline.h ../gsl-an/gsl/gsl_check_range.h \
+ ../gsl-an/gsl/gsl_vector_double.h ../gsl-an/gsl/gsl_block_double.h \
+ ../util/sip-utils.h ../util/sip.h ../util/an-bool.h ../util/keywords.h \
+ tweak.h ../util/an-bool.h ../libkd/kdtree.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/sip.h ../util/starutil.h ../util/starutil.inc ../util/starxy.h \
+ ../util/bl.h ../util/healpix.h ../libkd/dualtree_rangesearch.h \
+ ../libkd/kdtree.h ../libkd/kdtree_fits_io.h ../util/fitsbin.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/mathutil.h ../util/mathutil.inc ../util/log.h \
+ ../util/permutedsort.h ../util/gslutils.h ../util/errors.h
+quad-utils.o: quad-utils.c quad-utils.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h codefile.h \
+ ../util/starutil.h ../util/starutil.inc ../util/quadfile.h \
+ ../util/fitsbin.h ../util/errors.h ../util/log.h
+2mass-fits.o: 2mass-fits.c 2mass-fits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h 2mass.h ../util/an-bool.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/an-bool.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/ioutils.h ../util/fitsioutils.h ../util/starutil.h \
+ ../util/starutil.inc
+2mass.o: 2mass.c 2mass.h ../util/an-bool.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc
+usnob-fits.o: usnob-fits.c usnob-fits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h usnob.h ../util/an-bool.h \
+ ../util/starutil.h ../util/an-bool.h ../util/keywords.h \
+ ../util/starutil.inc ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/fitsioutils.h
+usnob.o: usnob.c usnob.h ../util/an-bool.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc \
+ ../util/an-endian.h
+nomad-fits.o: nomad-fits.c nomad-fits.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h nomad.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/fitsioutils.h
+nomad.o: nomad.c nomad.h ../util/starutil.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.inc ../util/an-endian.h
+matchfile.o: matchfile.c matchfile.h matchobj.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc ../util/sip.h \
+ ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/codekd.h \
+ ../util/fitstable.h ../util/fitsioutils.h ../util/ioutils.h \
+ ../util/mathutil.h ../util/mathutil.inc
+matchobj.o: matchobj.c ../util/sip.h ../util/an-bool.h ../util/keywords.h \
+ matchobj.h ../util/starutil.h ../util/starutil.inc ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/codekd.h \
+ ../util/log.h verify.h ../util/starkd.h ../util/starxy.h
+blindutils.o: blindutils.c blindutils.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/ioutils.h ../util/an-bool.h ../util/bl.h \
+ ../util/errors.h ../util/log.h
+dcen3x3.o: dcen3x3.c simplexy-common.h
+dallpeaks.o: dallpeaks.c dimage.h ../util/permutedsort.h \
+ simplexy-common.h ../util/log.h ../util/an-bool.h ../util/mathutil.h \
+ ../util/keywords.h ../util/mathutil.inc dallpeaks.inc
+dcen3x3.o: dcen3x3.c simplexy-common.h
+dfind.o: dfind.c simplexy-common.h dimage.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc dfind2.c ../util/errors.h \
+ ../util/an-bool.h ../util/bl.h ../util/log.h
+dmedsmooth.o: dmedsmooth.c simplexy-common.h
+dobjects.o: dobjects.c dimage.h simplexy-common.h ../util/log.h \
+ ../util/an-bool.h
+dpeaks.o: dpeaks.c ../util/keywords.h dimage.h ../util/permutedsort.h \
+ simplexy-common.h
+dselip.o: dselip.c radix.h
+dsigma.o: dsigma.c dimage.h simplexy-common.h ../util/log.h \
+ ../util/an-bool.h dsigma.inc
+dsmooth.o: dsmooth.c simplexy-common.h dsmooth.inc
+image2xy.o: image2xy.c image2xy.h simplexy.h ../util/an-bool.h \
+ ../util/ioutils.h ../util/an-bool.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/svn.h dimage.h ../util/errors.h ../util/log.h \
+ ../util/mathutil.h ../util/mathutil.inc
+simplexy.o: simplexy.c simplexy.h ../util/an-bool.h ctmf.h dimage.h \
+ simplexy-common.h ../util/log.h ../util/an-bool.h ../util/errors.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/resample.h \
+ ../util/fitsioutils.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h
+radix.o: radix.c ../util/keywords.h radix.h
+ctmf.o: ctmf.c
+resort-xylist.o: resort-xylist.c ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/ioutils.h ../util/an-bool.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/fitsioutils.h \
+ ../util/permutedsort.h ../util/an-bool.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/errors.h ../util/log.h
+tweak.o: tweak.c ../gsl-an/gsl/gsl_matrix_double.h \
+ ../gsl-an/gsl/gsl_types.h ../gsl-an/gsl/gsl_errno.h \
+ ../gsl-an/gsl/gsl_inline.h ../gsl-an/gsl/gsl_check_range.h \
+ ../gsl-an/gsl/gsl_vector_double.h ../gsl-an/gsl/gsl_block_double.h \
+ ../util/sip-utils.h ../util/sip.h ../util/an-bool.h ../util/keywords.h \
+ tweak.h ../util/an-bool.h ../libkd/kdtree.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/sip.h ../util/starutil.h ../util/starutil.inc ../util/starxy.h \
+ ../util/bl.h ../util/healpix.h ../libkd/dualtree_rangesearch.h \
+ ../libkd/kdtree.h ../libkd/kdtree_fits_io.h ../util/fitsbin.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/mathutil.h ../util/mathutil.inc ../util/log.h \
+ ../util/permutedsort.h ../util/gslutils.h ../util/errors.h
+test.o: test.c ../util/cutest.h
+control-program.o: control-program.c backend.h blind.h ../util/an-bool.h \
+ solver.h ../util/starutil.h ../util/an-bool.h ../util/keywords.h \
+ ../util/starutil.inc ../util/starxy.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../libkd/kdtree.h ../util/bl.h matchobj.h ../util/sip.h ../util/index.h \
+ ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/starkd.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitsbin.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/codekd.h ../util/quadfile.h ../util/starkd.h \
+ ../util/codekd.h verify.h matchfile.h ../util/fitstable.h \
+ ../util/rdlist.h ../util/xylist.h ../util/starxy.h ../util/starutil.h \
+ ../util/healpix.h ../util/log.h ../util/errors.h image2xy.h simplexy.h \
+ ../util/sip_qfits.h ../util/sip.h ../util/fitsioutils.h ../util/tic.h
+image2xy-main.o: image2xy-main.c image2xy-files.h ../util/an-bool.h \
+ simplexy.h ../util/log.h ../util/an-bool.h ../util/errors.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/ioutils.h
+image2xy-files.o: image2xy-files.c image2xy-files.h ../util/an-bool.h \
+ simplexy.h image2xy.h fitsio.h ../util/ioutils.h ../util/an-bool.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/svn.h \
+ ../util/errors.h ../util/log.h ../util/cfitsutils.h ../util/errors.h
+new-wcs-main.o: new-wcs-main.c new-wcs.h ../util/an-bool.h \
+ ../util/fitsioutils.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/keywords.h ../util/an-bool.h \
+ ../util/errors.h ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/log.h
+fits-guess-scale-main.o: fits-guess-scale-main.c \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ fits-guess-scale.h ../util/bl.h ../util/keywords.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/fitsioutils.h ../util/an-bool.h ../util/log.h
+wcs-xy2rd-main.o: wcs-xy2rd-main.c ../util/an-bool.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/boilerplate.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ wcs-rd2xy.h ../util/anwcs.h ../util/sip.h ../util/an-bool.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/errors.h \
+ wcs-xy2rd.h ../util/log.h
+wcs-rd2xy-main.o: wcs-rd2xy-main.c ../util/an-bool.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/boilerplate.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ wcs-rd2xy.h ../util/anwcs.h ../util/sip.h ../util/an-bool.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/errors.h \
+ ../util/log.h
+wcs-pv2sip.o: wcs-pv2sip.c ../util/fitsioutils.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/keywords.h ../util/an-bool.h ../util/ioutils.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/errors.h ../util/log.h ../util/an-bool.h \
+ ../util/sip.h ../util/sip_qfits.h ../util/sip.h ../util/starutil.h \
+ ../util/starutil.inc ../util/starxy.h tweak.h ../libkd/kdtree.h \
+ ../util/bl.h ../util/boilerplate.h
+startree2-main.o: startree2-main.c startree2.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/fitstable.h \
+ ../util/boilerplate.h ../util/errors.h ../util/log.h \
+ ../util/fitsioutils.h
+startree2.o: startree2.c startree2.h ../util/starkd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/fitstable.h \
+ ../util/errors.h ../util/log.h ../util/starutil.h ../util/starutil.inc \
+ ../util/fitsioutils.h ../util/boilerplate.h
+uniformize-catalog-main.o: uniformize-catalog-main.c uniformize-catalog.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_header.h ../util/an-bool.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_keywords.h ../util/an-bool.h \
+ ../util/boilerplate.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/errors.h ../util/log.h \
+ ../util/fitsioutils.h
+uniformize-catalog.o: uniformize-catalog.c uniformize-catalog.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_header.h ../util/an-bool.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_keywords.h ../util/an-bool.h ../util/intmap.h \
+ ../util/healpix.h ../util/healpix-utils.h ../util/permutedsort.h \
+ ../util/starutil.h ../util/starutil.inc ../util/mathutil.h \
+ ../util/mathutil.inc ../util/errors.h ../util/log.h \
+ ../util/boilerplate.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsioutils.h
+build-index-main.o: build-index-main.c build-index.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_header.h \
+ ../util/an-bool.h ../util/bl.h ../util/keywords.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_keywords.h \
+ ../util/index.h ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h ../util/codekd.h \
+ ../util/boilerplate.h ../util/errors.h ../util/log.h ../util/starutil.h \
+ ../util/starutil.inc
+build-index.o: build-index.c build-index.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_header.h \
+ ../util/an-bool.h ../util/bl.h ../util/keywords.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_keywords.h \
+ ../util/index.h ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h ../util/codekd.h \
+ ../util/boilerplate.h ../util/errors.h ../util/log.h quad-utils.h \
+ ../util/starkd.h codefile.h ../util/starutil.h ../util/starutil.inc \
+ ../util/quadfile.h uniformize-catalog.h startree2.h codetree.h \
+ ../util/codekd.h unpermute-quads.h unpermute-stars.h ../util/bl.h \
+ ../util/ioutils.h ../util/rdlist.h ../util/xylist.h ../util/starxy.h \
+ ../util/starutil.h hpquads.h ../util/sip.h ../util/sip_qfits.h \
+ ../util/sip.h merge-index.h ../util/fitsioutils.h ../util/permutedsort.h
+uniformize-catalog.o: uniformize-catalog.c uniformize-catalog.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_header.h ../util/an-bool.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_keywords.h ../util/an-bool.h ../util/intmap.h \
+ ../util/healpix.h ../util/healpix-utils.h ../util/permutedsort.h \
+ ../util/starutil.h ../util/starutil.inc ../util/mathutil.h \
+ ../util/mathutil.inc ../util/errors.h ../util/log.h \
+ ../util/boilerplate.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsioutils.h
+quad-utils.o: quad-utils.c quad-utils.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h codefile.h \
+ ../util/starutil.h ../util/starutil.inc ../util/quadfile.h \
+ ../util/fitsbin.h ../util/errors.h ../util/log.h
+hpquads-main.o: hpquads-main.c hpquads.h ../util/an-bool.h \
+ ../util/starkd.h ../libkd/kdtree.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h codefile.h \
+ ../util/starutil.h ../util/starutil.inc ../util/quadfile.h \
+ ../util/fitsbin.h ../util/healpix.h ../util/mathutil.h \
+ ../util/mathutil.inc ../util/tic.h ../util/fitsioutils.h \
+ ../util/permutedsort.h ../util/bt.h ../util/rdlist.h ../util/xylist.h \
+ ../util/starxy.h ../util/starutil.h ../util/histogram.h \
+ ../util/boilerplate.h ../util/log.h ../util/errors.h quad-utils.h \
+ quad-builder.h
+quad-builder.o: quad-builder.c quad-builder.h ../util/an-bool.h \
+ quad-utils.h ../util/starkd.h ../libkd/kdtree.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/an-bool.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ codefile.h ../util/starutil.h ../util/starutil.inc ../util/quadfile.h \
+ ../util/fitsbin.h ../util/mathutil.h ../util/mathutil.inc \
+ ../util/errors.h ../util/log.h
+hpquads.o: hpquads.c ../util/healpix.h ../util/keywords.h \
+ ../util/starutil.h ../util/an-bool.h ../util/starutil.inc codefile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/quadfile.h ../util/fitsbin.h ../util/starkd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../libkd/kdtree_fits_io.h ../libkd/kdtree.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/mathutil.h ../util/mathutil.inc ../util/tic.h \
+ ../util/fitsioutils.h ../util/permutedsort.h ../util/bt.h \
+ ../util/boilerplate.h ../util/log.h ../util/errors.h quad-utils.h \
+ quad-builder.h
+codetree-main.o: codetree-main.c codetree.h ../util/codekd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h codefile.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc \
+ ../util/fitsbin.h ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/quadfile.h \
+ ../util/fitsbin.h ../util/starkd.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../util/ioutils.h ../util/fitstable.h ../util/boilerplate.h
+unpermute-stars-main.o: unpermute-stars-main.c ../libkd/kdtree.h \
+ ../util/an-bool.h ../util/starutil.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.inc ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/fitsioutils.h ../util/starkd.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/boilerplate.h ../util/log.h ../util/errors.h unpermute-stars.h \
+ ../util/fitstable.h
+unpermute-quads-main.o: unpermute-quads-main.c unpermute-quads.h \
+ ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/an-bool.h \
+ ../util/codekd.h ../libkd/kdtree.h ../util/an-bool.h \
+ ../util/boilerplate.h
+merge-index-main.o: merge-index-main.c ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/codekd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../util/starkd.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/fitsioutils.h ../util/errors.h ../util/boilerplate.h \
+ ../util/ioutils.h merge-index.h
+local-index.o: local-index.c ../util/boilerplate.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/errors.h ../util/an-bool.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/log.h build-index.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/index.h ../util/quadfile.h ../util/fitsbin.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h ../util/codekd.h \
+ wcs-xy2rd.h ../util/bl.h ../util/rdlist.h ../util/xylist.h \
+ ../util/starxy.h ../util/starutil.h ../util/starutil.inc ../util/sip.h \
+ ../util/sip_qfits.h ../util/sip.h ../util/healpix.h
+dstnthing.o: dstnthing.c ../util/bl.h ../util/keywords.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/fit-wcs.h ../util/sip.h ../util/an-bool.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/sip.h \
+ ../util/sip_qfits.h ../util/sip-utils.h scamp.h ../util/starxy.h \
+ ../util/log.h ../util/errors.h matchfile.h matchobj.h ../util/starutil.h \
+ ../util/starutil.inc ../util/index.h ../util/quadfile.h \
+ ../util/fitsbin.h ../util/codekd.h ../util/fitstable.h \
+ ../util/boilerplate.h ../util/xylist.h ../util/starxy.h ../util/rdlist.h \
+ ../util/xylist.h ../util/starutil.h ../util/mathutil.h \
+ ../util/mathutil.inc verify.h ../util/starkd.h plotstuff.h \
+ ../util/keywords.h ../util/anwcs.h ../qfits-an/include/qfits_header.h \
+ plotimage.h ../util/cairoutils.h ../util/fitsioutils.h tweak2.h
+verify-main.o: verify-main.c ../util/starutil.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starutil.inc ../util/mathutil.h \
+ ../util/mathutil.inc ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc matchobj.h ../util/sip.h \
+ ../util/index.h ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/bl.h ../util/starkd.h ../libkd/kdtree.h ../util/an-bool.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/codekd.h ../util/xylist.h ../util/starxy.h ../util/rdlist.h \
+ ../util/xylist.h ../util/starutil.h ../util/ioutils.h ../util/starkd.h \
+ ../util/boilerplate.h ../util/sip_qfits.h ../util/sip.h ../util/log.h \
+ ../util/fitsioutils.h ../util/fit-wcs.h verify.h ../util/starxy.h \
+ ../util/histogram2d.h plotstuff.h ../util/keywords.h ../util/anwcs.h \
+ ../qfits-an/include/qfits_header.h plotimage.h ../util/cairoutils.h
+scamp.o: scamp.c scamp.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/sip.h ../util/an-bool.h \
+ ../util/keywords.h ../util/starxy.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/scamp-catalog.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/sip_qfits.h ../util/sip.h ../util/errors.h ../util/log.h
+cut-table.o: cut-table.c ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_header.h \
+ ../util/an-bool.h ../util/bl.h ../util/keywords.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/ioutils.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_keywords.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/ioutils.h ../util/fitsioutils.h ../util/errors.h ../util/log.h
+augment-xylist-main.o: augment-xylist-main.c ../util/ioutils.h \
+ ../util/an-bool.h ../util/bl.h ../util/keywords.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/bl.h ../util/an-bool.h solver.h ../util/starutil.h \
+ ../util/starutil.inc ../util/starxy.h ../libkd/kdtree.h matchobj.h \
+ ../util/sip.h ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/starkd.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/codekd.h ../util/quadfile.h ../util/starkd.h ../util/codekd.h \
+ verify.h ../util/fitsioutils.h ../util/sip_qfits.h ../util/sip.h \
+ tabsort.h ../util/errors.h fits-guess-scale.h image2xy-files.h \
+ simplexy.h resort-xylist.h ../util/an-opts.h augment-xylist.h
+whynot.o: whynot.c ../libkd/kdtree.h ../util/an-bool.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc \
+ ../util/mathutil.h ../util/mathutil.inc ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ matchobj.h ../util/sip.h ../util/index.h ../util/quadfile.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/starkd.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h ../util/fitsbin.h \
+ ../util/fitstable.h ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/codekd.h catalog.h ../util/tic.h ../util/quadfile.h quad-utils.h \
+ ../util/starkd.h codefile.h ../util/xylist.h ../util/starxy.h \
+ ../util/rdlist.h ../util/xylist.h ../util/starutil.h ../util/qidxfile.h \
+ verify.h ../util/starxy.h ../util/ioutils.h ../util/codekd.h \
+ ../util/boilerplate.h ../util/sip-utils.h ../util/sip.h \
+ ../util/sip_qfits.h ../util/log.h ../util/fitsioutils.h \
+ ../util/fit-wcs.h solver.h ../util/permutedsort.h ../util/intmap.h \
+ plotstuff.h ../util/keywords.h ../util/anwcs.h \
+ ../qfits-an/include/qfits_header.h plotxy.h plotindex.h
+plotstuff-main.o: plotstuff-main.c plotstuff.h ../util/keywords.h \
+ ../util/sip.h ../util/an-bool.h ../util/keywords.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/anwcs.h ../util/sip.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/an-bool.h \
+ ../util/boilerplate.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/log.h ../util/errors.h \
+ ../util/fitsioutils.h
+plotxy-main.o: plotxy-main.c plotstuff.h ../util/keywords.h ../util/sip.h \
+ ../util/an-bool.h ../util/keywords.h ../util/bl.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/anwcs.h ../util/sip.h ../qfits-an/include/qfits_header.h \
+ ../util/bl.h ../util/an-bool.h plotxy.h plotimage.h ../util/xylist.h \
+ ../util/starxy.h ../util/fitstable.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_header.h ../util/ioutils.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_keywords.h ../util/boilerplate.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../util/cairoutils.h ../util/log.h ../util/errors.h \
+ ../util/fitsioutils.h ../util/ioutils.h
+query-starkd.o: query-starkd.c ../util/starkd.h ../libkd/kdtree.h \
+ ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/keywords.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/an-bool.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h \
+ ../util/fitsioutils.h ../util/log.h ../util/errors.h \
+ ../util/boilerplate.h ../util/starutil.h ../util/starutil.inc \
+ ../util/rdlist.h ../util/xylist.h ../util/starxy.h ../util/starutil.h
+tabsort-main.o: tabsort-main.c tabsort.h ../util/an-bool.h \
+ ../util/fitsioutils.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/keywords.h ../util/an-bool.h
+resort-xylist-main.o: resort-xylist-main.c ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/an-bool.h resort-xylist.h \
+ ../util/fitsioutils.h ../util/keywords.h ../util/an-bool.h \
+ ../util/errors.h ../util/bl.h ../util/bl-nl.h ../util/bl-nl.ph \
+ ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/log.h

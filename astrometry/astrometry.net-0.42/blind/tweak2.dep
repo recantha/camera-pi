@@ -1,0 +1,21 @@
+tweak2.o: tweak2.c ../util/bl.h ../util/keywords.h ../util/bl-nl.h \
+ ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc \
+ ../util/fit-wcs.h ../util/sip.h ../util/an-bool.h ../util/starkd.h \
+ ../libkd/kdtree.h ../util/an-bool.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../qfits-an/include/anqfits.h \
+ ../qfits-an/include/qfits_keywords.h ../util/bl.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/sip.h \
+ ../util/sip_qfits.h ../util/sip-utils.h scamp.h ../util/starxy.h \
+ ../util/log.h ../util/errors.h tweak.h ../util/starutil.h \
+ ../util/starutil.inc matchfile.h matchobj.h ../util/index.h \
+ ../util/quadfile.h ../util/fitsbin.h ../util/codekd.h \
+ ../util/fitstable.h ../util/boilerplate.h ../util/xylist.h \
+ ../util/starxy.h ../util/rdlist.h ../util/xylist.h ../util/starutil.h \
+ ../util/mathutil.h ../util/mathutil.inc verify.h ../util/starkd.h \
+ ../util/fitsioutils.h

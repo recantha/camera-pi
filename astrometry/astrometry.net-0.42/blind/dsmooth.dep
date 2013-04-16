@@ -1,0 +1,1 @@
+dsmooth.o: dsmooth.c simplexy-common.h dsmooth.inc

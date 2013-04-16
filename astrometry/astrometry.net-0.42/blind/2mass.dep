@@ -1,0 +1,2 @@
+2mass.o: 2mass.c 2mass.h ../util/an-bool.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc

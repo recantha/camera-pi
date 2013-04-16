@@ -1,0 +1,2 @@
+intmap.o: intmap.c intmap.h an-bool.h bl.h keywords.h bl-nl.h bl-nl.ph \
+ bl.inc bl.ph bl-nl.inc

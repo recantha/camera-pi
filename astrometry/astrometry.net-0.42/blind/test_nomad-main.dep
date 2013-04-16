@@ -1,0 +1,1 @@
+test_nomad-main.o: test_nomad-main.c ../util/cutest.h

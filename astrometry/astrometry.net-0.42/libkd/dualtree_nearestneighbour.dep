@@ -1,0 +1,4 @@
+dualtree_nearestneighbour.o: dualtree_nearestneighbour.c \
+ dualtree_nearestneighbour.h kdtree.h ../util/an-bool.h dualtree.h \
+ ../util/starutil.h ../util/an-bool.h ../util/keywords.h \
+ ../util/starutil.inc ../util/mathutil.h ../util/mathutil.inc

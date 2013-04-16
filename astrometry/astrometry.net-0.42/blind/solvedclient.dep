@@ -1,0 +1,3 @@
+solvedclient.o: solvedclient.c solvedclient.h ../util/bl.h \
+ ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
+ ../util/bl.ph ../util/bl-nl.inc

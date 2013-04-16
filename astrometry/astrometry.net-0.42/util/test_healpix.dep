@@ -1,0 +1,2 @@
+test_healpix.o: test_healpix.c cutest.h starutil.h an-bool.h keywords.h \
+ starutil.inc healpix.h bl.h bl-nl.h bl-nl.ph bl.inc bl.ph bl-nl.inc

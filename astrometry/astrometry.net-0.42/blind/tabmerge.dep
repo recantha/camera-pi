@@ -1,0 +1,1 @@
+tabmerge.o: tabmerge.c fitsio.h

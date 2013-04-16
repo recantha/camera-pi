@@ -1,0 +1,1 @@
+imcopy.o: imcopy.c fitsio.h

@@ -1,0 +1,3 @@
+coadd.o: coadd.c coadd.h anwcs.h sip.h an-bool.h keywords.h \
+ ../qfits-an/include/qfits_header.h bl.h bl-nl.h bl-nl.ph bl.inc bl.ph \
+ bl-nl.inc resample.h mathutil.h mathutil.inc errors.h log.h

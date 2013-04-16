@@ -1,0 +1,19 @@
+plotindex.o: plotindex.c plotindex.h plotstuff.h ../util/keywords.h \
+ ../util/sip.h ../util/an-bool.h ../util/keywords.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/anwcs.h ../util/sip.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/an-bool.h \
+ ../util/index.h ../util/quadfile.h ../qfits-an/include/qfits.h \
+ ../qfits-an/include/qfits_cache.h ../qfits-an/include/qfits_filename.h \
+ ../qfits-an/include/qfits_header.h ../qfits-an/include/qfits_image.h \
+ ../qfits-an/include/qfits_md5.h ../qfits-an/include/qfits_rw.h \
+ ../qfits-an/include/qfits_std.h ../qfits-an/include/qfits_table.h \
+ ../qfits-an/include/qfits_time.h ../qfits-an/include/qfits_tools.h \
+ ../qfits-an/include/qfits_memory.h ../util/fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h \
+ ../util/starkd.h ../libkd/kdtree.h ../libkd/kdtree_fits_io.h \
+ ../libkd/kdtree.h ../util/fitsbin.h ../util/fitstable.h \
+ ../qfits-an/include/qfits_table.h ../util/ioutils.h ../util/codekd.h \
+ ../util/cairoutils.h ../util/ioutils.h ../util/log.h ../util/errors.h \
+ ../util/starutil.h ../util/starutil.inc ../util/qidxfile.h \
+ ../util/permutedsort.h

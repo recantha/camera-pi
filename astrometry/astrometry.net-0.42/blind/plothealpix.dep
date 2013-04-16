@@ -1,0 +1,7 @@
+plothealpix.o: plothealpix.c plothealpix.h plotstuff.h ../util/keywords.h \
+ ../util/sip.h ../util/an-bool.h ../util/keywords.h ../util/bl.h \
+ ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc ../util/bl.ph \
+ ../util/bl-nl.inc ../util/anwcs.h ../util/sip.h \
+ ../qfits-an/include/qfits_header.h ../util/bl.h ../util/an-bool.h \
+ ../util/sip-utils.h ../util/cairoutils.h ../util/ioutils.h ../util/log.h \
+ ../util/errors.h ../util/healpix-utils.h ../util/healpix.h

@@ -1,0 +1,2 @@
+permutedsort.o: permutedsort.c permutedsort.h os-features.h \
+ os-features-config.h

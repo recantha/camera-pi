@@ -1,0 +1,2 @@
+dsigma.o: dsigma.c dimage.h simplexy-common.h ../util/log.h \
+ ../util/an-bool.h dsigma.inc

@@ -1,0 +1,2 @@
+ngcic-accurate.o: ngcic-accurate.c ngcic-accurate.h ../util/an-bool.h \
+ ngcic-accurate-entries.c

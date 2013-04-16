@@ -1,0 +1,1 @@
+test_dcen3x3.o: test_dcen3x3.c ../util/cutest.h dimage.h

@@ -1,0 +1,2 @@
+bl.o: bl.c bl.h keywords.h bl-nl.h bl-nl.ph bl.inc bl.ph bl-nl.inc \
+ os-features.h os-features-config.h log.h an-bool.h bl-nl.c

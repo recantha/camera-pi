@@ -1,0 +1,1 @@
+imarith.o: imarith.c fitsio.h

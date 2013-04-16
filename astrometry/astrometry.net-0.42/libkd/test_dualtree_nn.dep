@@ -1,0 +1,3 @@
+test_dualtree_nn.o: test_dualtree_nn.c ../util/cutest.h \
+ dualtree_nearestneighbour.h kdtree.h ../util/an-bool.h \
+ ../util/mathutil.h ../util/keywords.h ../util/mathutil.inc ../util/tic.h

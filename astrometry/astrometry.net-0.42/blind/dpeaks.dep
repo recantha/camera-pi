@@ -1,0 +1,2 @@
+dpeaks.o: dpeaks.c ../util/keywords.h dimage.h ../util/permutedsort.h \
+ simplexy-common.h

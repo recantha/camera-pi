@@ -1,0 +1,4 @@
+dualtree_rangesearch.o: dualtree_rangesearch.c dualtree_rangesearch.h \
+ kdtree.h ../util/an-bool.h dualtree.h ../util/starutil.h \
+ ../util/an-bool.h ../util/keywords.h ../util/starutil.inc \
+ ../util/mathutil.h ../util/mathutil.inc

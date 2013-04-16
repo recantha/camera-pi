@@ -1,0 +1,12 @@
+starkd.o: starkd.c starkd.h ../libkd/kdtree.h an-bool.h \
+ ../qfits-an/include/qfits.h ../qfits-an/include/qfits_cache.h \
+ ../qfits-an/include/qfits_filename.h ../qfits-an/include/qfits_header.h \
+ ../qfits-an/include/qfits_image.h ../qfits-an/include/qfits_md5.h \
+ ../qfits-an/include/qfits_rw.h ../qfits-an/include/qfits_std.h \
+ ../qfits-an/include/qfits_table.h ../qfits-an/include/qfits_time.h \
+ ../qfits-an/include/qfits_tools.h ../qfits-an/include/qfits_memory.h \
+ ../libkd/kdtree_fits_io.h ../libkd/kdtree.h fitsbin.h \
+ ../qfits-an/include/anqfits.h ../qfits-an/include/qfits_keywords.h bl.h \
+ keywords.h bl-nl.h bl-nl.ph bl.inc bl.ph bl-nl.inc an-bool.h fitstable.h \
+ ../qfits-an/include/qfits_table.h an-bool.h bl.h ioutils.h keywords.h \
+ starutil.h starutil.inc fitsbin.h errors.h tic.h log.h fitsioutils.h

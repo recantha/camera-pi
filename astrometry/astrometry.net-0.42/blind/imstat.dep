@@ -1,0 +1,1 @@
+imstat.o: imstat.c fitsio.h

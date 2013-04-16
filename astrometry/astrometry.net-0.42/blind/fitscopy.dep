@@ -1,0 +1,1 @@
+fitscopy.o: fitscopy.c fitsio.h

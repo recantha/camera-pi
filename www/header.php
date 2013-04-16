@@ -4,6 +4,8 @@
 			.clear { clear:both; }
 			body { font-family: Verdana; }
 		</style>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="/camera_control.js"></script>
 	</head>
 
 	<body>
