@@ -1,11 +1,7 @@
 <html>
 	<head>
-		<style type="text/css">
-			.clear { clear:both; }
-			body { font-family: Verdana; }
-		</style>
+		<link href="/res/optica.css" rel="stylesheet" type="text/css"/>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="/camera_control.js"></script>
 	</head>
 
 	<body>

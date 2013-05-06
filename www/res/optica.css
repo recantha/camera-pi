@@ -1,0 +1,18 @@
+body {
+	font-family: Verdana;
+}
+
+.floatleft { float:left; }
+.floatright { float:right; }
+
+#camera_controls {
+	width: 50%;
+}
+#snapshot_wrapper {
+	width: 40%;
+}
+#take_photo, #camera_reset, .camera_control {
+	cursor: hand;
+}
+
+.clear { clear:both; }
