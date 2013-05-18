@@ -1,1 +1,0 @@
-kdtree_dim.o: kdtree_dim.c kdtree.h ../util/an-bool.h kdtree_internal.h

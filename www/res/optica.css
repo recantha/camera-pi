@@ -7,9 +7,14 @@ body {
 
 #camera_controls {
 	width: 50%;
+	margin-top:10px;
 }
 #snapshot_wrapper {
 	width: 40%;
+	clear:both;
+}
+#snapshot_wrapper img {
+	clear:both;
 }
 #take_photo, #camera_reset, .camera_control {
 	cursor: hand;

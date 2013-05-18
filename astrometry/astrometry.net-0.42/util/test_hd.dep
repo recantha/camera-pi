@@ -1,3 +1,0 @@
-test_hd.o: test_hd.c cutest.h hd.h ../libkd/kdtree.h an-bool.h bl.h \
- keywords.h bl-nl.h bl-nl.ph bl.inc bl.ph bl-nl.inc starutil.h an-bool.h \
- starutil.inc

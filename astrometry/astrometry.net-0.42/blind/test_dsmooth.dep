@@ -1,1 +1,0 @@
-test_dsmooth.o: test_dsmooth.c ../util/cutest.h

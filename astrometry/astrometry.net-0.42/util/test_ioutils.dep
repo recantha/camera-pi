@@ -1,2 +1,0 @@
-test_ioutils.o: test_ioutils.c cutest.h ioutils.h an-bool.h bl.h \
- keywords.h bl-nl.h bl-nl.ph bl.inc bl.ph bl-nl.inc log.h tic.h md5.h

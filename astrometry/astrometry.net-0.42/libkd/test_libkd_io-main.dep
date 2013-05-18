@@ -1,1 +1,0 @@
-test_libkd_io-main.o: test_libkd_io-main.c ../util/cutest.h

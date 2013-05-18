@@ -1,1 +1,0 @@
-test_dfind.o: test_dfind.c dimage.h ../util/cutest.h simplexy-common.h

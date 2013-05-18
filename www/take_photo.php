@@ -1,10 +1,12 @@
 <?php
-	$url = 'echo "hickup" | sudo -S /opt/vc/bin/raspicam';
+	$url = 'echo "hickup" | sudo -S raspistill';
 
-	$args = array("width", "height", "quality", "timeout", "thumbnail", "sharpness", "contrast", "brightness", "saturation", "ISO", "exposure", "awb", "imxfx");
+	$args = array("width", "height", "quality", "timeout", "thumbnail", "sharpness", "contrast", "brightness", "saturation", "ISO", "exposure", "awb", "imxfx", "hflip", "metering", "rotation");
 
 	foreach ($args as $arg) {
-		if (strlen(($_GET[$arg])) > 0) {
+		if ($_GET[$arg] == 'True') {
+			$url = $url . " --" .$arg;
+		} elseif (strlen(($_GET[$arg])) > 0) {
 			$url = $url . " --" .$arg. " " . $_GET[$arg];
 		}
 	}

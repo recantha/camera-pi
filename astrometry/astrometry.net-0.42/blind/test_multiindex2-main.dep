@@ -1,1 +1,0 @@
-test_multiindex2-main.o: test_multiindex2-main.c ../util/cutest.h

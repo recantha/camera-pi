@@ -1,2 +1,0 @@
-an-opts.o: an-opts.c an-opts.h bl.h keywords.h bl-nl.h bl-nl.ph bl.inc \
- bl.ph bl-nl.inc ioutils.h an-bool.h log.h

@@ -1,1 +1,0 @@
-test_ctmf.o: test_ctmf.c ctmf.h ../util/cutest.h

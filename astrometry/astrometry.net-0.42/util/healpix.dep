@@ -1,2 +1,0 @@
-healpix.o: healpix.c healpix.h keywords.h mathutil.h mathutil.inc \
- starutil.h an-bool.h starutil.inc permutedsort.h log.h

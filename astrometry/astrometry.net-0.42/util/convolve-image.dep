@@ -1,2 +1,0 @@
-convolve-image.o: convolve-image.c convolve-image.h mathutil.h keywords.h \
- mathutil.inc

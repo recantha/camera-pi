@@ -1,2 +1,0 @@
-test_log.o: test_log.c log.h an-bool.h cutest.h bl.h keywords.h bl-nl.h \
- bl-nl.ph bl.inc bl.ph bl-nl.inc ioutils.h

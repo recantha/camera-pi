@@ -1,3 +1,0 @@
-starutil.o: starutil.c mathutil.h keywords.h mathutil.inc starutil.h \
- an-bool.h starutil.inc errors.h bl.h bl-nl.h bl-nl.ph bl.inc bl.ph \
- bl-nl.inc

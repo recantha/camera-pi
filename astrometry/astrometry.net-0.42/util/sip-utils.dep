@@ -1,7 +1,0 @@
-sip-utils.o: sip-utils.c ../gsl-an/gsl/gsl_matrix_double.h \
- ../gsl-an/gsl/gsl_types.h ../gsl-an/gsl/gsl_errno.h \
- ../gsl-an/gsl/gsl_inline.h ../gsl-an/gsl/gsl_check_range.h \
- ../gsl-an/gsl/gsl_vector_double.h ../gsl-an/gsl/gsl_block_double.h \
- sip-utils.h sip.h an-bool.h keywords.h gslutils.h starutil.h \
- starutil.inc mathutil.h mathutil.inc errors.h bl.h bl-nl.h bl-nl.ph \
- bl.inc bl.ph bl-nl.inc log.h

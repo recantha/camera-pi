@@ -1,1 +1,0 @@
-tablist.o: tablist.c fitsio.h

@@ -1,2 +1,0 @@
-tic.o: tic.c tic.h errors.h an-bool.h bl.h keywords.h bl-nl.h bl-nl.ph \
- bl.inc bl.ph bl-nl.inc log.h

@@ -1,5 +1,0 @@
-image2xy-files.o: image2xy-files.c image2xy-files.h ../util/an-bool.h \
- simplexy.h image2xy.h fitsio.h ../util/ioutils.h ../util/an-bool.h \
- ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
- ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/svn.h \
- ../util/errors.h ../util/log.h ../util/cfitsutils.h ../util/errors.h

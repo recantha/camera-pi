@@ -1,1 +1,0 @@
-fitstomatlab.o: fitstomatlab.c fitsio.h

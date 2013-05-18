@@ -1,1 +1,0 @@
-liststruc.o: liststruc.c fitsio.h

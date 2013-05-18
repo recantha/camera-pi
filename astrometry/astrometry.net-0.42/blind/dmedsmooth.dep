@@ -1,1 +1,0 @@
-dmedsmooth.o: dmedsmooth.c simplexy-common.h

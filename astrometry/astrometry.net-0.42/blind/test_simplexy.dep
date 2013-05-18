@@ -1,2 +1,0 @@
-test_simplexy.o: test_simplexy.c ../util/cutest.h dimage.h simplexy.h \
- ../util/an-bool.h ../util/log.h ../util/an-bool.h

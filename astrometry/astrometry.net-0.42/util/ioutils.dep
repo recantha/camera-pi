@@ -1,2 +1,0 @@
-ioutils.o: ioutils.c ioutils.h an-bool.h bl.h keywords.h bl-nl.h bl-nl.ph \
- bl.inc bl.ph bl-nl.inc os-features.h os-features-config.h errors.h log.h

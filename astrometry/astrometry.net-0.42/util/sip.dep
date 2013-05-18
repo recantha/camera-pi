@@ -1,2 +1,0 @@
-sip.o: sip.c sip.h an-bool.h keywords.h starutil.h starutil.inc \
- mathutil.h mathutil.inc

@@ -1,1 +1,1 @@
-cat fifo.264 | nc.traditional 169.254.0.3 5000 &
+cat fifo.264 | nc.traditional 192.168.1.64 5001 &

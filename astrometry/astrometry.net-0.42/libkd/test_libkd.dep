@@ -1,5 +1,0 @@
-test_libkd.o: test_libkd.c ../util/errors.h ../util/an-bool.h \
- ../util/bl.h ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph \
- ../util/bl.inc ../util/bl.ph ../util/bl-nl.inc ../util/cutest.h kdtree.h \
- ../util/an-bool.h ../util/mathutil.h ../util/mathutil.inc an-fls.h \
- test_libkd_common.c

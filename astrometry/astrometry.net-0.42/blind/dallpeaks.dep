@@ -1,3 +1,0 @@
-dallpeaks.o: dallpeaks.c dimage.h ../util/permutedsort.h \
- simplexy-common.h ../util/log.h ../util/an-bool.h ../util/mathutil.h \
- ../util/keywords.h ../util/mathutil.inc dallpeaks.inc

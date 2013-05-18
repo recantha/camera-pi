@@ -1,3 +1,0 @@
-usnob.o: usnob.c usnob.h ../util/an-bool.h ../util/starutil.h \
- ../util/an-bool.h ../util/keywords.h ../util/starutil.inc \
- ../util/an-endian.h

@@ -1,2 +1,0 @@
-test_qsort_r.o: test_qsort_r.c cutest.h os-features.h \
- os-features-config.h

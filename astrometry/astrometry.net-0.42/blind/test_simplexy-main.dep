@@ -1,1 +1,0 @@
-test_simplexy-main.o: test_simplexy-main.c ../util/cutest.h

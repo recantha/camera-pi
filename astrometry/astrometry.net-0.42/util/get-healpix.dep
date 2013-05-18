@@ -1,3 +1,0 @@
-get-healpix.o: get-healpix.c healpix.h keywords.h healpix-utils.h bl.h \
- bl-nl.h bl-nl.ph bl.inc bl.ph bl-nl.inc starutil.h an-bool.h \
- starutil.inc mathutil.h mathutil.inc

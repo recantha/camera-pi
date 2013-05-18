@@ -1,1 +1,0 @@
-os-features.o: os-features.c os-features.h os-features-config.h

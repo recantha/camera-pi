@@ -1,2 +1,0 @@
-test_starutil.o: test_starutil.c starutil.h an-bool.h keywords.h \
- starutil.inc cutest.h

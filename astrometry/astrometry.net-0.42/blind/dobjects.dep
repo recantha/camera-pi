@@ -1,2 +1,0 @@
-dobjects.o: dobjects.c dimage.h simplexy-common.h ../util/log.h \
- ../util/an-bool.h

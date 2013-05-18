@@ -1,2 +1,0 @@
-starxy.o: starxy.c starxy.h bl.h keywords.h bl-nl.h bl-nl.ph bl.inc bl.ph \
- bl-nl.inc an-bool.h permutedsort.h

@@ -1,1 +1,0 @@
-modhead.o: modhead.c fitsio.h

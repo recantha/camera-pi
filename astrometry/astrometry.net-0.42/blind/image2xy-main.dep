@@ -1,4 +1,0 @@
-image2xy-main.o: image2xy-main.c image2xy-files.h ../util/an-bool.h \
- simplexy.h ../util/log.h ../util/an-bool.h ../util/errors.h ../util/bl.h \
- ../util/keywords.h ../util/bl-nl.h ../util/bl-nl.ph ../util/bl.inc \
- ../util/bl.ph ../util/bl-nl.inc ../util/ioutils.h
