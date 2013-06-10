@@ -8,8 +8,8 @@ do
   partition=$(echo $output | awk '{ print $2 }' )
   if [ $usep -le 95 ]; then
 	echo "Okay to take a new snapshot"
+	/opt/vc/bin/raspistill --timeout 1000 --output $CURRENT
 	cp $CURRENT $ARCHIVE
-	/opt/vc/bin/raspicam --timeout 1000 --output $CURRENT
   fi
 done
 
