@@ -60,7 +60,7 @@
 			<td>
 				<select name="hflip">
 					<option value="True" selected>Yes</option>
-					<option value="False">No</option>
+					<option value="">No</option>
 				</select>
 			</td>
 		</tr>
