@@ -1,5 +1,5 @@
 <?php
-	$url = 'echo "hickup" | sudo -S raspistill';
+	$url = 'echo "hickup" | raspistill';
 
 	$args = array("width", "height", "quality", "timeout", "thumbnail", "sharpness", "contrast", "brightness", "saturation", "ISO", "exposure", "awb", "imxfx", "hflip", "metering", "rotation");
 
